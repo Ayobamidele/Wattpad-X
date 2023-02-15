@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wattpad-X</title>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/popup.css" rel="stylesheet" />
+  </head>
+  <body class="p-5">
+	<div class="collapse" id="navbarToggleExternalContent">
+		<div class="bg-dark p-4">
+		  <h4 class="text-white">Collapsed content</h4>
+		  <span class="text-muted">Toggleable via the navbar brand.</span>
+		</div>
+	</div>
+
+	<nav class="navbar sticky-top navbar-light bg-light px-4 my-3" style="border-radius: 20px;top: 20px;">
+		<a class="navbar-brand cf-popins" href="#">
+			<img src="assets/images/icon16.png" alt="wattpad_logo" class="px-auto"> Wattpad-X
+		</a>
+		<img src="assets/images/menu_icon24.png" alt="menu_icon" class="px-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+	</nav>
+
+	<form class="form-inline " id="search_form">
+		<div class="d-flex">
+			<input class="form-control h-25 mx-1" type="text" placeholder="Search" name="search">
+			<button class="btn btn-outline-success mx-1" type="submit">Search</button>
+		</div>
+		
+		<div class="p-3 filter">
+			<small class="official-primary filter-btn" type="button" data-toggle="collapse" data-target="#search_filters" aria-controls="search_filters" aria-expanded="false" aria-label="Toggle navigation">Filters</small>
+
+			<div class="checkboxes collapse" id="search_filters">
+				<input type="checkbox" value="True" name="completed" id="completed" checked>
+				<label for="completed">Completed</label>
+	
+				<input type="checkbox" value="True" name="mature" id="mature" checked>
+				<label for="mature">Mature</label>
+	
+				<input type="checkbox" value="True" name="free" id="free" checked>
+				<label for="free">Free</label>
+	
+				<input type="checkbox" value="True" name="paid" id="paid" checked>
+				<label for="paid">Paid</label>
+			</div>
+		</div>
+	</form>
+
+
+	
+	<script src="assets/js/jquery.slim.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popup.js"></script>
+  </body>
+</html>
