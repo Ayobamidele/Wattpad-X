@@ -8,8 +8,13 @@
 	box-shadow: 0 0 0 .25rem rgb(236, 186, 142);
 }
 
-.official-primary{
+.official-primary {
 	color: #f47201;
+}
+
+.bg-custom {
+	background-color: #f47201;
+	border-color: #c25e06;
 }
 
 .filter-btn  small:before {
@@ -76,7 +81,7 @@ body {
   margin: -120px 0px 0px 0px;
   line-height: 19px;
   font-size: 14px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .text-container h3 {
